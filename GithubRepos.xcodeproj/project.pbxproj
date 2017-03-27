@@ -13,6 +13,7 @@
 		7751ABDA1E89CFEB0032189A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7751ABD81E89CFEB0032189A /* Main.storyboard */; };
 		7751ABDC1E89CFEB0032189A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7751ABDB1E89CFEB0032189A /* Assets.xcassets */; };
 		7751ABDF1E89CFEB0032189A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7751ABDD1E89CFEB0032189A /* LaunchScreen.storyboard */; };
+		7751ABE81E89D9BE0032189A /* GitRepo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7751ABE71E89D9BE0032189A /* GitRepo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		7751ABDB1E89CFEB0032189A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7751ABDE1E89CFEB0032189A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7751ABE01E89CFEB0032189A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7751ABE61E89D9BE0032189A /* GitRepo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitRepo.h; sourceTree = "<group>"; };
+		7751ABE71E89D9BE0032189A /* GitRepo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitRepo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				7751ABDD1E89CFEB0032189A /* LaunchScreen.storyboard */,
 				7751ABE01E89CFEB0032189A /* Info.plist */,
 				7751ABCF1E89CFEB0032189A /* Supporting Files */,
+				7751ABE61E89D9BE0032189A /* GitRepo.h */,
+				7751ABE71E89D9BE0032189A /* GitRepo.m */,
 			);
 			path = GithubRepos;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			files = (
 				7751ABD71E89CFEB0032189A /* ViewController.m in Sources */,
 				7751ABD41E89CFEB0032189A /* AppDelegate.m in Sources */,
+				7751ABE81E89D9BE0032189A /* GitRepo.m in Sources */,
 				7751ABD11E89CFEB0032189A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
