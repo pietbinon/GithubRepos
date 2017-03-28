@@ -8,8 +8,11 @@
 
 #import "GitRepo.h"
 
+
+
 @implementation GitRepo
-- (instancetype)initWithName:(NSString*)name andURL:(NSURL*)url{
+
+- (instancetype) initWithName: (NSString*)name andURL: (NSURL*)url {
     
     self = [super init];
     if (self) {

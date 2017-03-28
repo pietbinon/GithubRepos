@@ -8,12 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+
+
 @interface GitRepo : NSObject
 
 @property (nonatomic,strong) NSURL *url;
 @property (nonatomic,strong) NSString *name;
 
 - (instancetype)initWithName:(NSString*)name andURL:(NSURL*)url;
-
 
 @end

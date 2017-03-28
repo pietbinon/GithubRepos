@@ -65,13 +65,10 @@
 				7751ABD31E89CFEB0032189A /* AppDelegate.m */,
 				7751ABD51E89CFEB0032189A /* ViewController.h */,
 				7751ABD61E89CFEB0032189A /* ViewController.m */,
-				7751ABD81E89CFEB0032189A /* Main.storyboard */,
-				7751ABDB1E89CFEB0032189A /* Assets.xcassets */,
-				7751ABDD1E89CFEB0032189A /* LaunchScreen.storyboard */,
-				7751ABE01E89CFEB0032189A /* Info.plist */,
-				7751ABCF1E89CFEB0032189A /* Supporting Files */,
 				7751ABE61E89D9BE0032189A /* GitRepo.h */,
 				7751ABE71E89D9BE0032189A /* GitRepo.m */,
+				7751ABD81E89CFEB0032189A /* Main.storyboard */,
+				7751ABCF1E89CFEB0032189A /* Supporting Files */,
 			);
 			path = GithubRepos;
 			sourceTree = "<group>";
@@ -79,6 +76,9 @@
 		7751ABCF1E89CFEB0032189A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7751ABDB1E89CFEB0032189A /* Assets.xcassets */,
+				7751ABDD1E89CFEB0032189A /* LaunchScreen.storyboard */,
+				7751ABE01E89CFEB0032189A /* Info.plist */,
 				7751ABD01E89CFEB0032189A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -313,6 +313,7 @@
 				7751ABE51E89CFEB0032189A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
